@@ -17,8 +17,9 @@ from django.contrib import admin
 from django.urls import path, include
 from web.views import Greetings
 
+
 urlpatterns = [
+	path('', include('base.urls')),
     path('admin/', admin.site.urls),
-    path('', Greetings),
-    path('', include('base.urls'))
+    path('main/', Greetings),
 ]
