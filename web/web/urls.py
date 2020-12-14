@@ -19,7 +19,7 @@ from web.views import Greetings
 
 
 urlpatterns = [
-	path('', include('base.urls')),
     path('admin/', admin.site.urls),
-    path('main/', Greetings),
+    path('', Greetings),
+    path('', include('base.urls')),
 ]
