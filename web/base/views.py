@@ -1,7 +1,16 @@
 from django.shortcuts import render
-from .forms import InputForm
+from django.http import HttpResponse
+from . import forms
+
+
 
 def input_form_view(request):
 	context = {}
-	context['form'] = InputForm()
-	return render(request, 'home.html', context)
+	context['form'] = forms.InputForm()
+	return render(request, 'register.html', context)
+
+def about(request):
+	return render(request, 'about.html')
+
+def homepage(request):
+	return render(request, 'homepage.html')
