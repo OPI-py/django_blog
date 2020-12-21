@@ -5,10 +5,10 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Articles</title>
-		<link rel="stylesheet" href="{% static 'main_styles.css' %}">
+		<link rel="stylesheet" href="{% static 'styles.css' %}">
 	</head>
 	<body>
-		<div class="wrapper">
+		<header class="wrapper">
 			<h1><a href="{% url 'home' %}">
 				<img src="{% static 'articles.jpg' %}">
 				</a>
@@ -19,8 +19,7 @@
 					{%if user.is_authenticated%} 
 					<li>
 						<form class="logout-link" action="{% url 'accounts:logout' %}" method="post">{%csrf_token%}
-						<button type="Submit">Logout</button>
-						
+							<button type="Submit">Logout</button>
 						</form>
 					</li>
 					<li><a href="{%url 'articles:create'%}" class="highlight">New Article</a></li>
@@ -30,6 +29,7 @@
 					{%endif%}
 				</ul>
 			</nav>
+		</header>
 			{% block content %}
 			{% endblock %}
 	</body>
