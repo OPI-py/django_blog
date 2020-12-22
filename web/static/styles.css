@@ -90,6 +90,7 @@ nav button{
 	display:   block;
 	margin-left: auto;
 	margin-right: auto;
+	margin-top: 20px;
 }
 
 .article-detail .article h2{
@@ -99,5 +100,8 @@ nav button{
 }
 
 .article-detail .article p{
-	text-align: center;
+	text-align:  left;
+	word-wrap:   break-word;
+	margin-left: 20px;
+	margin-right: 20px;
 }
