@@ -27,6 +27,11 @@ a:hover {
 	margin: 0 auto;
 }
 
+.wrapper .interpage{
+	margin: 0;
+	inline-size: min-content;
+}
+
 h1{
 	text-align: center;
 	margin: 50px auto;
@@ -114,7 +119,7 @@ nav button{
 
 .site-form input, .site-form textarea{
 	display: block;
-	margin: 20px 0 0 0;
+	margin: 10px 0 10px 0;
 	padding: 4px;
 }
 
@@ -143,6 +148,11 @@ a.highlight{
 	color: white;
 	font-size: 1.2em;
 	border-radius: 4px;
-	margin: 10px 0;
+	margin: 10;
 	padding: 10px 10px;
+}
+
+.site-form #id_thumb{
+	font-size: 1.1em;
+	padding: 0;
 }
