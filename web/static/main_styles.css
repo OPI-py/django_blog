@@ -1,5 +1,5 @@
 body {
-  background-color: lightblue;
+  background-color: #f2f2f2;
 	max-width: 1024px;
 	margin: 0 auto;
 }
@@ -24,10 +24,10 @@ a:hover {
 	text-decoration: none;
 }
 
-/*.wrapper{
-	max-width: 960px;
-	margin: 0 auto;
-}*/
+nav ul li button:hover{
+	color: #fff;
+	background: #9acd32;
+}
 
 .wrapper .interpage{
 	margin: 0;
@@ -75,10 +75,6 @@ nav button{
 	padding-bottom: 40px;
 }
 
-.article h2{
-
-}
-
 .article .author{
 	padding: 10px;
 	position: absolute;
@@ -114,7 +110,7 @@ nav button{
 }
 
 .site-form{
-	margin-top: 60px;
+	margin-top: 40px;
 	border: 1px solid black;
 	padding: 20px;
 }
@@ -125,10 +121,31 @@ nav button{
 	padding: 4px;
 }
 
-a.highlight{
+.site-form label{
+	display: block;
+	padding: 0;
+	margin: 10px 0 10px 0
+}
+
+.site-form .helptext{
+	color: grey;
+}
+
+a.highlight, nav a{
 	border: 1px solid black;
 	padding: 10px;
 	border-radius: 4px;
+}
+
+nav ul li a:hover{
+	background: #9acd32;
+}
+
+nav ul li button{
+	border: 1px solid black;
+	padding: 10px;
+	border-radius: 4px;
+	font-size: 1em;
 }
 
 .errorlist li{
