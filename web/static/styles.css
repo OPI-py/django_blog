@@ -115,7 +115,13 @@ nav button{
 	padding: 20px;
 }
 
-.site-form input, .site-form textarea{
+.site-form input{
+	display: block;
+	margin: 10px 0 10px 0;
+	padding: 4px;
+}
+
+.site-form textarea{
 	display: block;
 	margin: 10px 0 10px 0;
 	padding: 4px;
