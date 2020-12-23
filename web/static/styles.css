@@ -78,7 +78,7 @@ nav button{
 .article .author{
 	padding: 10px;
 	position: absolute;
-	background:  blanchedalmond;
+	background:  #9acd32;
 	right: 0;
 	bottom: 0;
 	margin:  0;
@@ -117,24 +117,41 @@ nav button{
 
 .site-form input{
 	display: block;
-	margin: 10px 0 10px 0;
-	padding: 4px;
+}
+
+.site-form #id_username, .site-form #id_password, .site-form #id_password1,
+.site-form #id_password2, .site-form #id_title, .site-form #id_slug{
+	width: 25%;
+	margin-left: auto;
+	margin-right: auto;
+  padding: 8px;
 }
 
 .site-form textarea{
 	display: block;
-	margin: 10px 0 10px 0;
-	padding: 4px;
+	margin: auto;
+	padding: 8px;
+	width: 75%;
+}
+
+.site-form #id_thumb{
+	margin: auto;
+	width: 26.5%;
+	padding: 8px;
+	font-size: 1em;
 }
 
 .site-form label{
 	display: block;
-	padding: 0;
-	margin: 10px 0 10px 0
+	padding:0;
+	margin: 10px 0 10px 0;
+	text-align: center;
 }
 
 .site-form .helptext{
 	color: grey;
+	display: table;
+	margin: auto;
 }
 
 a.highlight, nav a{
@@ -168,16 +185,20 @@ nav ul li button{
 }
 
 .site-form input[type="submit"]{
-	border: 0;
+	border: 1 solid blueviolet;
 	background: blueviolet;
 	color: white;
 	font-size: 1.2em;
-	border-radius: 4px;
-	margin: 10;
-	padding: 10px 10px;
+	border-radius: 5px;
+	padding: 10px;
+	width: 26.8%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	cursor: pointer;
 }
 
-.site-form #id_thumb{
-	font-size: 1.1em;
-	padding: 0;
+.site-form input[type="submit"]:hover{
+	background: #9acd32;
+	
 }
