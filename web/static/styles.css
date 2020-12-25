@@ -204,3 +204,10 @@ nav ul li button{
 	background: #9acd32;
 	
 }
+
+.pagination{
+	position: static;
+	float: right;
+	font-size: 1.2em;
+	padding: 10px 0;
+}
