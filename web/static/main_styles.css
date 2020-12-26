@@ -211,4 +211,28 @@ nav ul li button{
 	float: right;
 	font-size: 1.2em;
 	padding: 10px 0;
+	text-align: center;
+	background-color: inherit;
+}
+
+.pagination .step-links a{
+	border: 0;
+  display: inline;
+  padding: 10px 20px !important;
+  vertical-align: middle;
+  overflow: hidden;
+  -webkit-appearance: button;
+  box-sizing: inherit;
+}
+
+.pagination .step-links a:hover{
+	color: #000;
+  background-color: #9acd32;
+}
+
+.pagination .current{
+	border: none;
+  vertical-align: middle;
+  overflow: hidden;
+	padding: 12px 24px !important;
 }
