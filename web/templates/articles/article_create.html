@@ -5,7 +5,7 @@
 		<h2>Create New Article</h2>
 		<form class="site-form" action="{%url 'articles:create'%}" method="post"
 		enctype="multipart/form-data">
-			{%csrf_token%}{{form}}
+			{%csrf_token%}{{form.media}}{{form}}
 			<input type="submit" value="Create">		
 		</form>
 	</div>
