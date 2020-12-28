@@ -32,4 +32,5 @@ urlpatterns = [
 urlpatterns += staticfiles_urlpatterns()
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
+# image and file upload inside WYSIWYG editor
 urlpatterns += (path('froala_editor/', include('froala_editor.urls')),)
