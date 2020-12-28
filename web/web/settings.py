@@ -41,8 +41,10 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'base',
     'articles',
-    'accounts'
+    'accounts',
 ]
+
+INSTALLED_APPS += ('froala_editor',)
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
