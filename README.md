@@ -1,7 +1,7 @@
-# django_blog
-
-pip install Pillow<br>
-pip install django-froala-editor
+<p><code>pip install Django==3.1.7</code></p>
+<p><code>pip install Pillow==8.1.2</code></p>
+<p><code>pip install django-froala-editor==3.2.2</code></p>
+<p><code>pip install python-decouple==3.4</code></p>
 <hr>
 <ul>
   <li>Login/Register Forms</li>
